@@ -28,9 +28,8 @@
   <main class="wrap" id="top">
     <div class="hero" id="intro-tr"><span class="badge">🔒 GİZLİLİK & GÜVEN</span><h1>Gizlilik Politikası</h1><p class="subtitle">Blocora'da hangi oyun bilgilerinin cihazında saklandığını ve gizliliğinin nasıl ele alındığını öğren.</p><p class="update">Son güncelleme: 8 Kasım 2026</p></div>
     <div class="hero" id="intro-en" hidden><span class="badge">🔒 PRIVACY & TRUST</span><h1>Privacy Policy</h1><p class="subtitle">Learn what game information Blocora stores on your device and how privacy is handled.</p><p class="update">Last updated: November 8, 2026</p></div>
-    <div class="highlight" aria-label="Privacy overview"><div class="small"><b>🎮</b><span data-tr="Hesap açmak gerekmez" data-en="No account required">Hesap açmak gerekmez</span></div><div class="small"><b>💾</b><span data-tr="Oyun kayıtları cihazda" data-en="Game saves on device">Oyun kayıtları cihazda</span></div><div class="small"><b>🚫</b><span data-tr="Reklam ve analiz SDK'sı yok*" data-en="No ads or analytics SDKs*">Reklam ve analiz SDK'sı yok*</span></div></div>
-    <strong>Yayın öncesi kontrol:</strong> Bu sayfa taslaktır. Aşağıdaki iletişim e-postasını gerçek bir adresle değiştir ve son uygulama sürümünde veri akışlarını doğrula. Bu uyarıyı ancak bu işlemler tamamlandığında kaldır.</div>
-    <strong>Before publishing:</strong> This page is a draft. Replace the contact email placeholder with a real address and verify data flows in the final app build. Remove this notice only after those steps are complete.</div>
+    <div class="highlight" aria-label="Privacy overview"><div class="small"><b>🎮</b><span data-tr="Hesap açmak gerekmez" data-en="No account required">Hesap açmak gerekmez</span></div><div class="small"><b>💾</b><span data-tr="Oyun kayıtları cihazda" data-en="Game saves on device">Oyun kayıtları cihazda</span></div><div class="small"><b>🚫</b><span data-tr="Reklam ve analiz SDK'sı yok" data-en="No ads or analytics SDKs">Reklam ve analiz SDK'sı yok</span></div></div>
+
     <article class="card" id="policy-tr">
       <h2>1. Hakkımızda</h2><p>Blocora, 8×8 oyun tahtasında blok yerleştirme bulmacası sunan bir mobil oyundur. Bu politika, uygulamanın mevcut sürümündeki veri işleme uygulamalarını açıklar.</p>
       <h2>2. Kişisel bilgiler</h2><p>Blocora oyun oynamak için hesap açılmasını gerektirmez. Uygulamanın mevcut sürümü oyuncudan ad, e-posta, telefon numarası veya konum bilgisi girmesini istemez. İncelenen oyun kodunda bu bilgileri geliştirici sunucusuna gönderen bir özellik bulunmamaktadır.</p>
@@ -39,7 +38,7 @@
       <h2>5. Saklama ve silme</h2><p>Yerel kayıtlar, cihazdaki uygulama verileri temizleninceye kadar saklanabilir. Oyunun yeniden başlatılması yalnızca mevcut oyunu sıfırlar; rekor ve XP kayıtlarını silmez. Uygulamanın verilerini cihaz ayarlarından silmek yerel oyun bilgilerini kaldırabilir. İşletim sistemi yedekleri ayrıca tutulabilir.</p>
       <h2>6. Çocukların gizliliği</h2><p>Blocora oyun oynamak için kullanıcı hesabı veya kişisel bilgi girişi gerektirmez. Uygulamanın işlevleri değişirse bu bölüm yeniden değerlendirilecektir.</p>
       <h2>7. Politika güncellemeleri</h2><p>Veri işleme yöntemleri veya uygulama özellikleri değiştiğinde bu metin güncellenebilir. Güncel sürüm bu sayfada yayımlanacaktır.</p>
-      <h2>8. İletişim</h2><p>Gizlilikle ilgili sorular için:</p><div class="contact"><strong>İletişim e-postası:</strong> <span class="contact-placeholder"><div Bl0caraa0@gmail.com=""></div></span></div>
+      <h2>8. İletişim</h2><p>Gizlilikle ilgili sorular için:</p><div class="contact"><strong>İletişim e-postası:</strong> <a href="mailto:Bl0caraa0@gmail.com">Bl0caraa0@gmail.com</a></div>
     </article>
     <article class="card" id="policy-en" hidden>
       <h2>1. About Blocora</h2><p>Blocora is a mobile block puzzle game played on an 8×8 board. This policy describes data handling in the current version of the app.</p>
@@ -49,15 +48,15 @@
       <h2>5. Retention and deletion</h2><p>Local records may remain until app data is cleared from the device. Restarting a game resets the current game but does not erase high scores or XP. Clearing app data through device settings may remove locally stored game information. Operating system backups may exist separately.</p>
       <h2>6. Children's privacy</h2><p>Blocora does not require user accounts or personal information entry to play. This section will be reviewed if app functionality changes.</p>
       <h2>7. Policy updates</h2><p>This policy may be updated if the app's functionality or data handling changes. The latest version will be published on this page.</p>
-      <h2>8. Contact</h2><p>For questions about privacy:</p><div class="contact"><strong>Contact email:</strong> <span class="contact-placeholder"><div Bl0caraa0@gmail.com=""></div></span></div>
+      <h2>8. Contact</h2><p>For questions about privacy:</p><div class="contact"><strong>Contact email:</strong> <a href="mailto:Bl0caraa0@gmail.com">Bl0caraa0@gmail.com</a></div>
     </article>
   </main>
   <footer class="footer"><strong>BLOCORA</strong> · <span data-tr="Block Puzzle • Gizliliğine saygı" data-en="Block Puzzle • Privacy matters">Block Puzzle • Gizliliğine saygı</span><br>© 2026 Blocora</footer>
   <script>
     function setLang(lang){
       const en = lang === 'en'; document.documentElement.lang = lang;
-      for(const id of ['intro-tr','notice-tr','policy-tr']) document.getElementById(id).hidden = en;
-      for(const id of ['intro-en','notice-en','policy-en']) document.getElementById(id).hidden = !en;
+      for(const id of ['intro-tr','policy-tr']) document.getElementById(id).hidden = en;
+      for(const id of ['intro-en','policy-en']) document.getElementById(id).hidden = !en;
       document.getElementById('trButton').setAttribute('aria-pressed',String(!en));
       document.getElementById('enButton').setAttribute('aria-pressed',String(en));
       document.querySelectorAll('[data-tr][data-en]').forEach(el=>el.textContent=el.dataset[lang]);
