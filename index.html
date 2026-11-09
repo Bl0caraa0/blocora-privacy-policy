@@ -1,13 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#101827">
-  <meta name="description" content="Blocora mobil oyununun gizlilik politikası ve veri kullanım bilgileri. Privacy policy for the Blocora mobile puzzle game.">
-  <title>Blocora | Gizlilik Politikası · Privacy Policy</title>
-  <link rel="icon" type="image/webp" href="blocora-logo.webp">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#101827" name="theme-color"/>
+<meta content="Blocora gizlilik politikası: yerel oyun kayıtları ve Supabase global sıralama verileri. Blocora privacy policy for local saves and online leaderboard." name="description"/>
+<title>Blocora | Gizlilik Politikası · Privacy Policy</title>
+<link href="blocora-logo.webp" rel="icon" type="image/webp"/>
+<style>
     :root{color-scheme:dark;--bg:#101827;--card:#17253b;--stroke:#293e5d;--text:#eaf3ff;--muted:#9cb0ca;--accent:#38bdf8}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 850px 440px at 50% -170px,#214a7b 0%,transparent 75%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8}
     a{color:#8ad9ff}a:hover{text-decoration:none}.wrap{width:min(920px,calc(100% - 36px));margin:auto}
@@ -18,41 +19,42 @@
   </style>
 </head>
 <body>
-  <header class="top"><div class="wrap top-inner">
-    <a class="brand" href="#top" aria-label="Blocora"><img src="blocora-logo.webp" alt="" width="44" height="44"> BLOCORA</a>
-    <div class="language" aria-label="Language / Dil">
-      <button type="button" id="trButton" aria-pressed="true" onclick="setLang('tr')">TR</button>
-      <button type="button" id="enButton" aria-pressed="false" onclick="setLang('en')">EN</button>
-    </div>
-  </div></header>
-  <main class="wrap" id="top">
-    <div class="hero" id="intro-tr"><span class="badge">🔒 GİZLİLİK & GÜVEN</span><h1>Gizlilik Politikası</h1><p class="subtitle">Blocora'da hangi oyun bilgilerinin cihazında saklandığını ve gizliliğinin nasıl ele alındığını öğren.</p><p class="update">Son güncelleme: 8 Kasım 2026</p></div>
-    <div class="hero" id="intro-en" hidden><span class="badge">🔒 PRIVACY & TRUST</span><h1>Privacy Policy</h1><p class="subtitle">Learn what game information Blocora stores on your device and how privacy is handled.</p><p class="update">Last updated: November 8, 2026</p></div>
-    <div class="highlight" aria-label="Privacy overview"><div class="small"><b>🎮</b><span data-tr="Hesap açmak gerekmez" data-en="No account required">Hesap açmak gerekmez</span></div><div class="small"><b>💾</b><span data-tr="Oyun kayıtları cihazda" data-en="Game saves on device">Oyun kayıtları cihazda</span></div><div class="small"><b>🚫</b><span data-tr="Reklam ve analiz SDK'sı yok" data-en="No ads or analytics SDKs">Reklam ve analiz SDK'sı yok</span></div></div>
-
-    <article class="card" id="policy-tr">
-      <h2>1. Hakkımızda</h2><p>Blocora, 8×8 oyun tahtasında blok yerleştirme bulmacası sunan bir mobil oyundur. Bu politika, uygulamanın mevcut sürümündeki veri işleme uygulamalarını açıklar.</p>
-      <h2>2. Kişisel bilgiler</h2><p>Blocora oyun oynamak için hesap açılmasını gerektirmez. Uygulamanın mevcut sürümü oyuncudan ad, e-posta, telefon numarası veya konum bilgisi girmesini istemez. İncelenen oyun kodunda bu bilgileri geliştirici sunucusuna gönderen bir özellik bulunmamaktadır.</p>
-      <h2>3. Cihazda saklanan oyun verileri</h2><p>Oyuna kaldığın yerden devam edebilmen ve tercihlerini koruyabilmen için aşağıdaki bilgiler uygulamanın yerel depolamasında tutulabilir:</p><ul><li>En yüksek puan ve oyun skorları</li><li>Toplam XP ve oyuncu seviyesi</li><li>Devam eden oyunun tahtası, parçaları ve puanı</li><li>Ses, titreşim ve ekran sarsıntısı tercihleri</li></ul><p>Bu kayıtlar uygulamanın çalışması için kullanılır. İncelenen sürümde bu oyun kayıtlarını bir geliştirici sunucusuna yükleyen özellik bulunmamaktadır.</p>
-      <h2>4. Üçüncü taraf teknolojiler</h2><p>Blocora, uygulamanın açılış ekranı ve cihazın dokunsal geri bildirim özellikleri için Capacitor bileşenlerini kullanır. İncelenen sürümde reklam ağı veya üçüncü taraf analiz SDK'sı bulunmamaktadır. Yayın sürümüne yeni hizmetler eklenirse politika güncellenecektir.</p>
-      <h2>5. Saklama ve silme</h2><p>Yerel kayıtlar, cihazdaki uygulama verileri temizleninceye kadar saklanabilir. Oyunun yeniden başlatılması yalnızca mevcut oyunu sıfırlar; rekor ve XP kayıtlarını silmez. Uygulamanın verilerini cihaz ayarlarından silmek yerel oyun bilgilerini kaldırabilir. İşletim sistemi yedekleri ayrıca tutulabilir.</p>
-      <h2>6. Çocukların gizliliği</h2><p>Blocora oyun oynamak için kullanıcı hesabı veya kişisel bilgi girişi gerektirmez. Uygulamanın işlevleri değişirse bu bölüm yeniden değerlendirilecektir.</p>
-      <h2>7. Politika güncellemeleri</h2><p>Veri işleme yöntemleri veya uygulama özellikleri değiştiğinde bu metin güncellenebilir. Güncel sürüm bu sayfada yayımlanacaktır.</p>
-      <h2>8. İletişim</h2><p>Gizlilikle ilgili sorular için:</p><div class="contact"><strong>İletişim e-postası:</strong> <a href="mailto:Bl0caraa0@gmail.com">Bl0caraa0@gmail.com</a></div>
-    </article>
-    <article class="card" id="policy-en" hidden>
-      <h2>1. About Blocora</h2><p>Blocora is a mobile block puzzle game played on an 8×8 board. This policy describes data handling in the current version of the app.</p>
-      <h2>2. Personal information</h2><p>Blocora does not require an account to play. The current version does not ask players to enter a name, email address, phone number, or location. No functionality sending this information to a developer-operated server was identified in the reviewed game code.</p>
-      <h2>3. Game data stored on your device</h2><p>To save progress and settings, the app may store the following information locally on your device:</p><ul><li>High scores and game scores</li><li>Total XP and player level</li><li>Current game board, pieces, and score</li><li>Sound, haptic feedback, and screen-shake preferences</li></ul><p>These records are used to run the app. No feature uploading these game records to a developer-operated server was found in the reviewed version.</p>
-      <h2>4. Third-party technologies</h2><p>Blocora uses Capacitor components for its launch screen and device haptic feedback. No advertising network or third-party analytics SDK was found in the reviewed version. This policy will be updated if new services are added to a release.</p>
-      <h2>5. Retention and deletion</h2><p>Local records may remain until app data is cleared from the device. Restarting a game resets the current game but does not erase high scores or XP. Clearing app data through device settings may remove locally stored game information. Operating system backups may exist separately.</p>
-      <h2>6. Children's privacy</h2><p>Blocora does not require user accounts or personal information entry to play. This section will be reviewed if app functionality changes.</p>
-      <h2>7. Policy updates</h2><p>This policy may be updated if the app's functionality or data handling changes. The latest version will be published on this page.</p>
-      <h2>8. Contact</h2><p>For questions about privacy:</p><div class="contact"><strong>Contact email:</strong> <a href="mailto:Bl0caraa0@gmail.com">Bl0caraa0@gmail.com</a></div>
-    </article>
-  </main>
-  <footer class="footer"><strong>BLOCORA</strong> · <span data-tr="Block Puzzle • Gizliliğine saygı" data-en="Block Puzzle • Privacy matters">Block Puzzle • Gizliliğine saygı</span><br>© 2026 Blocora</footer>
-  <script>
+<header class="top"><div class="wrap top-inner">
+<a aria-label="Blocora" class="brand" href="#top"><img alt="" height="44" src="blocora-logo.webp" width="44"/> BLOCORA</a>
+<div aria-label="Language / Dil" class="language">
+<button aria-pressed="true" id="trButton" onclick="setLang('tr')" type="button">TR</button>
+<button aria-pressed="false" id="enButton" onclick="setLang('en')" type="button">EN</button>
+</div>
+</div></header>
+<main class="wrap" id="top">
+<div class="hero" id="intro-tr"><span class="badge">🔒 GİZLİLİK &amp; GÜVEN</span><h1>Gizlilik Politikası</h1><p class="subtitle">Blocora'da cihazındaki kayıtların ve global sıralama bilgilerinin nasıl işlendiğini öğren.</p><p class="update">Son güncelleme: 9 Kasım 2026</p></div>
+<div class="hero" hidden="" id="intro-en"><span class="badge">🔒 PRIVACY &amp; TRUST</span><h1>Privacy Policy</h1><p class="subtitle">Learn how Blocora handles local game saves and online leaderboard information.</p><p class="update">Last updated: November 9, 2026</p></div>
+<div aria-label="Privacy overview" class="highlight"><div class="small"><b>🎮</b><span data-en="Play without an account" data-tr="Hesapsız oyun">Hesapsız oyun</span></div><div class="small"><b>💾</b><span data-en="Game saves on device" data-tr="Oyun kayıtları cihazda">Oyun kayıtları cihazda</span></div><div class="small"><b>🚫</b><span data-en="Online global leaderboard" data-tr="Global sıralama çevrimiçi">Global sıralama çevrimiçi</span></div></div>
+<article class="card" id="policy-tr">
+<h2>1. Hakkımızda</h2><p>Blocora, 8×8 oyun tahtasında blok yerleştirme bulmacası sunan bir mobil oyundur. Bu politika, oyun içindeki yerel kayıtların ve isteğe bağlı global sıralama özelliğinin nasıl çalıştığını açıklar.</p>
+<h2>2. Oyun için hesap gerekli mi?</h2><p>Temel oyunu oynamak için hesap açmak, ad, e-posta veya telefon numarası vermek gerekmez. Global sıralamayı kullanmak isteyen oyuncular için Supabase üzerinden anonim bir oturum oluşturulur. Anonim oturum, oyuncunun gerçek kimliğini doğrulamaz.</p>
+<h2>3. Cihazda saklanan bilgiler</h2><p>Blocora, oyuna kaldığın yerden devam edebilmen ve tercihlerini hatırlayabilmen için cihazında aşağıdaki bilgileri saklayabilir:</p><ul><li>En yüksek yerel puan, oyun skorları ve devam eden oyunun tahtası ile parçaları</li><li>XP ve oyuncu seviyesi</li><li>Ses, titreşim ve ekran sarsıntısı tercihleri</li><li>Global sıralama için seçilen oyuncu adı ve anonim oturum bilgileri</li></ul><p>Bu yerel kayıtlar uygulamanın çalışmasını sağlar. Global sıralama kullanıldığında aşağıdaki bilgiler ayrıca çevrimiçi işlenir.</p>
+<h2>4. Global sıralama ve çevrimiçi veriler</h2><p>Global sıralama özelliği Supabase altyapısını kullanır. Sıralamaya katıldığında anonim kullanıcı kimliği, belirlediğin oyuncu adı, gönderdiğin en yüksek puan ve kayıt güncelleme zamanı veritabanında saklanabilir. Oyuncu adın ve en yüksek puanın diğer oyunculara sıralama ekranında gösterilir. Anonim kullanıcı kimliği, kayıtları birbirinden ayırmak ve erişimi kontrol etmek için kullanılır.</p><p>Oyuncu adı olarak gerçek adını, iletişim bilgilerini veya başka kişisel bilgileri kullanma. Supabase, hizmetin işletilmesi ve güvenliği amacıyla bağlantı gibi teknik bilgileri de kendi koşulları ve gizlilik bildirimleri uyarınca işleyebilir.</p>
+<h2>5. Verilerin kullanım amacı ve üçüncü taraf teknolojiler</h2><p>Çevrimiçi sıralama verilerini oyuncuları sıralamak, kişiye kendi rekorunu göstermek ve kayıtlarına erişimini yönetmek için kullanıyoruz. Blocora açılış ekranı ve dokunsal geri bildirim için Capacitor bileşenlerini, kimlik doğrulama ve çevrimiçi sıralama için Supabase'i kullanır. İncelenen oyun sürümünde reklam ağı veya ayrı bir analiz SDK'sı bulunmamaktadır.</p>
+<h2>6. Saklama ve silme</h2><p>Yerel kayıtlar, uygulama verileri temizleninceye kadar cihazda kalabilir; sistem yedekleri ayrıca bulunabilir. Oyunu yeniden başlatmak rekoru veya XP'yi silmez. Cihazdaki uygulama verilerini silmek, Supabase'de daha önce oluşturulmuş çevrimiçi sıralama kaydını otomatik olarak silmeyebilir. Çevrimiçi kaydının silinmesini istemek için aşağıdaki iletişim adresine yazabilirsin. Talebin ilgili kayıtla eşleştirilebilmesi için ek doğrulama gerekebilir.</p>
+<h2>7. Çocukların gizliliği</h2><p>Blocora temel oyun için kişisel bilgi girişi gerektirmez. Global sıralamada kullanılan oyuncu adları herkese açık olabileceğinden gerçek ad, okul, adres, telefon veya başka kişisel bilgiler paylaşılmamalıdır.</p>
+<h2>8. Politika güncellemeleri</h2><p>Uygulamanın işlevleri veya veri işleme yöntemleri değişirse politika güncellenebilir. En güncel metin bu sayfada yayımlanacaktır.</p>
+<h2>9. İletişim</h2><p>Gizlilik, çevrimiçi sıralama kaydı veya silme talepleriyle ilgili sorular için:</p><div class="contact"><strong>İletişim e-postası:</strong> <a href="mailto:Bl0caraa0@gmail.com">Bl0caraa0@gmail.com</a></div>
+</article>
+<article class="card" hidden="" id="policy-en">
+<h2>1. About Blocora</h2><p>Blocora is a mobile block puzzle game played on an 8×8 board. This policy describes how local game records and the optional online leaderboard feature are handled.</p>
+<h2>2. Do I need an account to play?</h2><p>Playing the main game does not require an account or providing a name, email address, or phone number. Players using the global leaderboard are signed in anonymously through Supabase. An anonymous session does not verify a player's real-world identity.</p>
+<h2>3. Information stored on your device</h2><p>Blocora may store the following locally to save your progress and preferences:</p><ul><li>Local high score, game scores, current game board and pieces</li><li>XP and player level</li><li>Sound, haptic feedback, and screen-shake preferences</li><li>Your chosen leaderboard nickname and anonymous session information</li></ul><p>These local records support the app. If you use the global leaderboard, additional information is processed online as described below.</p>
+<h2>4. Global leaderboard and online information</h2><p>The global leaderboard uses Supabase infrastructure. When you participate, an anonymous user ID, your chosen nickname, your submitted best score, and the record update time may be stored in the database. Your nickname and high score are shown to other players on the leaderboard. The anonymous user ID is used to distinguish records and manage access.</p><p>Do not use your real name, contact details, or other personal information as a nickname. Supabase may also process technical information such as connection data to operate and secure its service, subject to its terms and privacy notices.</p>
+<h2>5. How information is used and third-party technologies</h2><p>Online leaderboard information is used to rank players, show personal records, and manage access to their entries. Blocora uses Capacitor components for its launch screen and haptic feedback and Supabase for authentication and online leaderboards. No advertising network or separate analytics SDK was identified in the reviewed game version.</p>
+<h2>6. Retention and deletion</h2><p>Local records may remain until app data is cleared; operating system backups may exist separately. Restarting a game does not remove high scores or XP. Clearing app data from your device may not automatically delete leaderboard records previously stored in Supabase. To request removal of an online record, use the contact address below. Additional verification may be required to match a request to a particular record.</p>
+<h2>7. Children's privacy</h2><p>Blocora does not require personal information to play the main game. Because leaderboard nicknames may be publicly displayed, players should not share real names, schools, addresses, phone numbers, or other personal details.</p>
+<h2>8. Policy updates</h2><p>This policy may change if the app's functionality or data handling changes. The latest version will be published on this page.</p>
+<h2>9. Contact</h2><p>For privacy questions, leaderboard entries, or deletion requests:</p><div class="contact"><strong>Contact email:</strong> <a href="mailto:Bl0caraa0@gmail.com">Bl0caraa0@gmail.com</a></div>
+</article>
+</main>
+<footer class="footer"><strong>BLOCORA</strong> · <span data-en="Block Puzzle • Privacy matters" data-tr="Block Puzzle • Gizliliğine saygı">Block Puzzle • Gizliliğine saygı</span><br/>© 2026 Blocora</footer>
+<script>
     function setLang(lang){
       const en = lang === 'en'; document.documentElement.lang = lang;
       for(const id of ['intro-tr','policy-tr']) document.getElementById(id).hidden = en;
